@@ -1,13 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.cgrid {
+  grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr 1fr 1fr;
+}
+
+.css-11494p6 {
+  border-radius: 0 !important;
+}
+.css-1kfu8nn {
+  border-radius: 0 !important;
+}
+
+.text-item {
+  position: relative;
+  padding-left: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.text-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 41%;
+  transform: translateY(-50%);
+  height: 1px;
+  width: 20px;
+  background-color: #d03a33; /* Color of the line */
+}
+
+.text-item span {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.css-1g0mrv8 {
+  border-radius: 0% !important;
+  height: 50px !important;
+  border-color: black !important;
+}
+
+.action-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  text-transform: uppercase;
+  cursor: pointer;
+  flex-grow: 2;
+  font-size: 16px;
+  text-align: center;
+}
+
+.action-button:hover {
+  background-color: #333;
 }
