@@ -30,6 +30,13 @@ export default function Product() {
   };
   return (
     <section className="lg:px-20 md:px-10 px-2 mb-10">
+      <h1 className="text-left pb-2 md:pb-8 text-lg sm:text-[35px] text-red-800">
+        home <span className="text-black/60">/</span> tshirts{" "}
+        <span className="text-black/60">/</span> jerseyas
+      </h1>
+      <h1 className="text-left text-2xl sm:text-[38px] md:text-[50px] uppercase font-bold pb-8 md:pb-20">
+        the best jersey in the world
+      </h1>
       <div className="md:grid  gap-4 grid-cols-2  ">
         <div className="lg:grid hidden  gap-1 grid-cols-5 row-span-4 ">
           <div className="col-span-1 ">
@@ -66,7 +73,7 @@ export default function Product() {
           </Slider>
         </div>
         <div className="p-5">
-          <div className="text-left md:text-base lg:text-lg text-xs">
+          <div className="text-left container md:text-base lg:text-lg text-xs">
             <div className="text-item md:text-base lg:text-lg text-xs pb-2 ">
               <span>Comfort:</span> Soft, breathable fabrics
             </div>

@@ -11,8 +11,8 @@ const categories = [
 
 export default function Categories() {
   return (
-    <section className="lg:px-40 md:px-24 px-0">
-      <h1 className="py-2 uppercase font-bold">our top pics</h1>
+    <section className="lg:px-40 py-5 md:px-24 px-0">
+      <h1 className="py-2 text-2xl uppercase font-bold">Categories</h1>
       <div className="grid gap-1 grid-cols-2 sm:grid-cols-4 ">
         {categories.map((categ, index) => (
           <motion.div

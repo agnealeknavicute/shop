@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutUs() {
   return (
     <section className="lg:px-40 md:px-24 px-1 md:text-lg text-base">
-      <h1 className="pt-6 uppercase font-bold">About us</h1>
+      <h1 className="pt-6 text-2xl uppercase font-bold">About us</h1>
       <div className="py-4">
         <p className="py-2">
           Smoking is a widely recognized public health issue that has

@@ -3,8 +3,8 @@ import bannerImg from "./img/Снимок экрана 2024-08-21 в 13.04.07.pn
 
 export default function Feedback() {
   return (
-    <section>
-      <h1 className="pt-6 uppercase pb-4 font-bold">
+    <section className="py-5">
+      <h1 className="pt-6 uppercase pb-4 text-2xl font-bold">
         Collaboration / questions / answers
       </h1>
       <div className="md:grid grid-cols-2">

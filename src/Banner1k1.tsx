@@ -3,7 +3,7 @@ import bannerImg from "./img/Снимок экрана 2024-08-21 в 13.04.07.pn
 
 export default function Banner1k1() {
   return (
-    <section>
+    <section className="py-5">
       <div className="grid grid-rows-1 grid-cols-2 grid-flow-col ">
         <div className="relative ">
           <img src={bannerImg} alt="" className="w-full" />

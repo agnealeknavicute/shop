@@ -79,11 +79,11 @@ export default function SliderCom() {
   const slider = React.useRef<Slider>(null);
 
   return (
-    <section className="md:px-6 pb-2">
-      <h1 className="py-2 uppercase font-bold">our top pics</h1>
+    <section className="md:px-6 py-5">
+      <h1 className="py-2 text-2xl uppercase font-bold">our top pics</h1>
       <Slider className="md:w-4/5 w-[98%] mx-auto" ref={slider} {...settings}>
         {a.map((slide, index) => (
-          <motion.div whileHover={{ scale: 1.05 }} className="cursor-pointer">
+          <motion.div whileHover={{ scale: 1.01 }} className="cursor-pointer">
             <img key={index} src={sliderImg} alt="" />
             <p className="text-center font-light md:text-sm text-xs">
               item title
