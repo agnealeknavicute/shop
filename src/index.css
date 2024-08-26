@@ -84,3 +84,9 @@ code {
 .action-button:hover {
   background-color: #333;
 }
+
+@media (max-width: 1023px) {
+  .absl {
+    transform: translate(-50%, -50%);
+  }
+}

@@ -65,14 +65,14 @@ export default function Products() {
           </Menu>
         </div>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+      <div className="grid grid-cols-3 sm:grid-cols-4 gap-5">
         {a.map((slide, index) => (
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="cursor-pointer mb-4"
+            className="cursor-pointer  mb-4"
           >
-            <img className="mx-auto" key={index} src={sliderImg} alt="" />
-            <p className="text-center font-light md:text-sm text-xs">
+            <img className="w-full" key={index} src={sliderImg} alt="" />
+            <p className="text-center  font-light md:text-sm text-xs">
               item title
             </p>
           </motion.div>

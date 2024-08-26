@@ -30,7 +30,7 @@ export default function Product() {
   };
   return (
     <section className="lg:px-20 md:px-10 px-2 mb-10">
-      <h1 className="text-left pb-2 md:pb-8 text-lg sm:text-[35px] text-red-800">
+      <h1 className="text-left pb-2 md:pb-10 text-lg sm:text-[35px] text-red-800">
         home <span className="text-black/60">/</span> tshirts{" "}
         <span className="text-black/60">/</span> jerseyas
       </h1>
